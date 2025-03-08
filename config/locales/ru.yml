@@ -1,0 +1,207 @@
+---
+ru:
+  contact_prompts:
+    if_any_questions_html: <a href="/contact">Свяжитесь с нами</a>, если у вас есть вопросы.
+    if_continued_trouble_html: <a href="/contact">Свяжитесь с нами</a>, если проблема продолжится.
+    if_we_can_help_html: <a href="/contact">Свяжитесь с нами</a>, если мы можем чем-то помочь.
+  core:
+    add_comment: Добавить комментарий
+    beta: бета
+    comment: Комментарий
+    copy_link: Скопировать ссылку
+    edit_profile: Редактировать профиль
+    follow: Подписаться
+    follow_back: Подписаться в ответ
+    following: Подписаны
+    like: Нравится
+    loading: загрузка...
+    reaction: Реакция
+    report_abuse: Пожаловаться на злоупотребление
+    search: Поиск
+    success_settings: Настройки успешно обновлены.
+    counted_organization:
+      one: "%{count} организация"
+      other: "%{count} организаций"
+    counted_user:
+      one: "%{count} человек"
+      other: "%{count} людей"
+    not_following: "Вы ни на кого не подписаны"
+    following_everyone: "Вы подписаны на %{details} (всех)"
+    you_are_following: "Вы подписаны"
+    and: "и"
+  datetime:
+    distance_in_words_ago:
+      about_x_hours:
+        one: около 1 часа назад
+        other: около %{count} часов назад
+      about_x_months:
+        one: около 1 месяца назад
+        other: около %{count} месяцев назад
+      about_x_years:
+        one: около 1 года назад
+        other: около %{count} лет назад
+      almost_x_years:
+        one: почти 1 год назад
+        other: почти %{count} лет назад
+      half_a_minute: полминуты назад
+      less_than_x_seconds:
+        one: менее 1 секунды назад
+        other: менее %{count} секунд назад
+      less_than_x_minutes:
+        one: менее минуты назад
+        other: менее %{count} минут назад
+      over_x_years:
+        one: более 1 года назад
+        other: более %{count} лет назад
+      x_seconds:
+        one: 1 секунду назад
+        other: "%{count} секунд назад"
+      x_minutes:
+        one: 1 минуту назад
+        other: "%{count} минут назад"
+      x_days:
+        one: 1 день назад
+        other: "%{count} дней назад"
+      x_months:
+        one: 1 месяц назад
+        other: "%{count} месяцев назад"
+      x_years:
+        one: 1 год назад
+        other: "%{count} лет назад"
+    expired_ago:
+      about_x_hours:
+        one: Истекло около 1 часа назад
+        other: Истекло около %{count} часов назад
+      about_x_months:
+        one: Истекло около 1 месяца назад
+        other: Истекло около %{count} месяцев назад
+      about_x_years:
+        one: Истекло около 1 года назад
+        other: Истекло около %{count} лет назад
+      almost_x_years:
+        one: Истекло почти 1 год назад
+        other: Истекло почти %{count} лет назад
+      half_a_minute: Истекло полминуты назад
+      less_than_x_seconds:
+        one: Истекло менее 1 секунды назад
+        other: Истекло менее %{count} секунд назад
+      less_than_x_minutes:
+        one: Истекло менее минуты назад
+        other: Истекло менее %{count} минут назад
+      over_x_years:
+        one: Истекло более 1 года назад
+        other: Истекло более %{count} лет назад
+      x_seconds:
+        one: Истекло 1 секунду назад
+        other: Истекло %{count} секунд назад
+      x_minutes:
+        one: Истекло 1 минуту назад
+        other: Истекло %{count} минут назад
+      x_days:
+        one: Истекло 1 день назад
+        other: Истекло %{count} дней назад
+      x_months:
+        one: Истекло 1 месяц назад
+        other: Истекло %{count} месяцев назад
+      x_years:
+        one: Истекло 1 год назад
+        other: Истекло %{count} лет назад
+    expires_in:
+      about_x_hours:
+        one: Истекает через около 1 часа
+        other: Истекает через около %{count} часов
+      about_x_months:
+        one: Истекает через около 1 месяца
+        other: Истекает через около %{count} месяцев
+      about_x_years:
+        one: Истекает через около 1 года
+        other: Истекает через около %{count} лет
+      almost_x_years:
+        one: Истекает через почти 1 год
+        other: Истекает через почти %{count} лет
+      half_a_minute: Истекает через полминуты
+      less_than_x_seconds:
+        one: Истекает через менее 1 секунды
+        other: Истекает через менее %{count} секунд
+      less_than_x_minutes:
+        one: Истекает через менее минуты
+        other: Истекает через менее %{count} минут
+      over_x_years:
+        one: Истекает через более 1 года
+        other: Истекает через более %{count} лет
+      x_seconds:
+        one: Истекает через 1 секунду
+        other: Истекает через %{count} секунд
+      x_minutes:
+        one: Истекает через 1 минуту
+        other: Истекает через %{count} минут
+      x_days:
+        one: Истекает через 1 день
+        other: Истекает через %{count} дней
+      x_months:
+        one: Истекает через 1 месяц
+        other: Истекает через %{count} месяцев
+      x_years:
+        one: Истекает через 1 год
+        other: Истекает через %{count} лет
+  billboard:
+    promoted: Продвигаемый
+    menu:
+      aria_label: Открыть выпадающее меню
+      icon: Выпадающее меню
+      close: Закрыть
+      manage_preferences: Управление предпочтениями
+      what_is_a_billboard: Что такое рекламный щит?
+      report_billboard: Пожаловаться на рекламный щит
+  errors:
+    messages:
+      accepted: должно быть принято
+      bad_protocol: должно начинаться с %{protocols}
+      bad_uri: является недопустимым URL
+      blank: не может быть пустым
+      confirmation: не совпадает с %{attribute}
+      contains_prohibited_characters: содержит недопустимые символы или запрещенные Unicode-символы
+      empty: не может быть пустым
+      equal_to: должно быть равно %{count}
+      even: должно быть четным
+      exclusion: зарезервировано
+      general: 'Ошибка: %{errors}'
+      greater_than: должно быть больше %{count}
+      greater_than_or_equal_to: должно быть больше или равно %{count}
+      inclusion: не входит в список
+      invalid: является недопустимым
+      less_than: должно быть меньше %{count}
+      less_than_or_equal_to: должно быть меньше или равно %{count}
+      model_invalid: 'Проверка не пройдена: %{errors}'
+      not_a_number: не является числом
+      not_an_integer: должно быть целым числом
+      odd: должно быть нечетным
+      other_than: должно быть отличным от %{count}
+      present: должно быть пустым
+      required: должно существовать
+      taken: уже занято
+      too_long:
+        one: слишком длинное (максимум 1 символ)
+        other: слишком длинное (максимум %{count} символов)
+      too_short:
+        one: слишком короткое (минимум 1 символ)
+        other: слишком короткое (минимум %{count} символов)
+      try_again_email: 'Произошла ошибка. Пожалуйста, попробуйте снова или отправьте письмо на: %{email}'
+      wrong_length:
+        one: неверной длины (должно быть 1 символ)
+        other: неверной длины (должно быть %{count} символов)
+  time:
+    formats:
+      admin_user: "%Y-%m-%d, %H:%M"
+      comment: "%d %B %Y"
+      email_verified: "%b %e '%y, %H:%M"
+      github: "%b %d, %Y"
+      json: "%b %e, %Y"
+      medium: "%b %-d, %Y"
+      members: "%d %b"
+      members_with_year: "%d %b, %Y"
+      reddit: "%b %e '%y"
+      short: "%b %-e"
+      short_with_yy: "%b %-d '%y"
+      short_with_year: "%b %-e, %Y"
+      stackexchange: "%b %e '%y"
