@@ -1,0 +1,10 @@
+---
+ru:
+  views:
+    pagination:
+      aria_next: "Следующая страница"
+      aria_previous: "Предыдущая страница"
+  helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: "%{first}&nbsp;-&nbsp;%{last} из %{total}"
