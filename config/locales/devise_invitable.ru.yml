@@ -1,0 +1,33 @@
+---
+ru:
+  devise:
+    failure:
+      invited: У вас есть ожидающее приглашение, примите его, чтобы завершить создание учетной записи.
+    invitations:
+      edit:
+        header: Установите ваш пароль
+        submit_button: Начнем
+      invitation_removed: Ваше приглашение было удалено.
+      invitation_token_invalid: Предоставленный токен приглашения недействителен!
+      new:
+        header: Отправить приглашение
+        submit_button: Отправить приглашение
+      no_invitations_remaining: Нет оставшихся приглашений
+      send_instructions: Письмо с приглашением отправлено на %{email}.
+      updated: Ваш пароль успешно установлен. Теперь вы вошли в систему.
+      updated_not_active: Ваш пароль успешно установлен.
+    mailer:
+      invitation_instructions:
+        accept_instructions: Вы можете принять приглашение, нажав на эту ссылку
+        accept: Принять приглашение
+        accept_until: Это приглашение истекает %{due_date}.
+        hello: Здравствуйте
+        ignore: Если вы не хотите принимать приглашение, пожалуйста, игнорируйте это письмо. Ваша учетная запись не будет создана, пока вы не перейдете по ссылке выше и не установите пароль.
+        someone_invited_you: Вас пригласили присоединиться к сообществу %{community_name} на %{url}.
+        subject: Инструкции по приглашению
+  time:
+    formats:
+      devise:
+        mailer:
+          invitation_instructions:
+            accept_until_format: "%d %B %Y %H:%M"
